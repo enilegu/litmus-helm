@@ -36,7 +36,7 @@ Kubernetes: `>=1.16.0-0`
 | global.infraConfigName | string | `"subscriber-config"` |  |
 | global.infraSecretName | string | `"subscriber-secret"` |  |
 | image.pullPolicy | string | `"Always"` |  |
-| image.repository | string | `"litmuschaos.docker.scarf.sh/litmuschaos/litmusportal-event-tracker"` |  |
+| image.repository | string | `"litmuschaos/litmusportal-event-tracker"` |  |
 | image.tag | string | `""` |  |
 | imagePullSecrets | list | `[]` |  |
 | nameOverride | string | `""` |  |

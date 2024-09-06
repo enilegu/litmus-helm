@@ -10,7 +10,7 @@ customLabels: {}
 
 image:
   litmusGO:
-    repository: litmuschaos.docker.scarf.sh/litmuschaos/go-runner
+    repository: litmuschaos/go-runner
     tag: 3.10.0
     pullPolicy: Always
 

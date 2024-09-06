@@ -25,7 +25,7 @@ adminConfig:
   ADMIN_PASSWORD: "litmus"
 
 image:
-  imageRegistryName: litmuschaos.docker.scarf.sh/litmuschaos
+  imageRegistryName: litmuschaos
   # Optional pod imagePullSecrets
   imagePullSecrets: []
 

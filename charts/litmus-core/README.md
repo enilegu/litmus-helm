@@ -27,7 +27,7 @@ A Helm chart to install litmus infra components on Kubernetes
 | exporter.annotations | object | `{}` |  |
 | exporter.enabled | bool | `false` |  |
 | exporter.image.pullPolicy | string | `"Always"` |  |
-| exporter.image.repository | string | `"litmuschaos.docker.scarf.sh/litmuschaos/chaos-exporter"` |  |
+| exporter.image.repository | string | `"litmuschaos/chaos-exporter"` |  |
 | exporter.image.tag | string | `"3.10.0"` |  |
 | exporter.nodeSelector | object | `{}` |  |
 | exporter.priorityClassName | string | `nil` |  |
@@ -47,7 +47,7 @@ A Helm chart to install litmus infra components on Kubernetes
 | nameOverride | string | `"litmus"` |  |
 | nodeSelector | object | `{}` |  |
 | operator.image.pullPolicy | string | `"Always"` |  |
-| operator.image.repository | string | `"litmuschaos.docker.scarf.sh/litmuschaos/chaos-operator"` |  |
+| operator.image.repository | string | `"litmuschaos/chaos-operator"` |  |
 | operator.image.tag | string | `"3.10.0"` |  |
 | operatorMode | string | `"standard"` |  |
 | operatorName | string | `"chaos-operator"` |  |
@@ -57,7 +57,7 @@ A Helm chart to install litmus infra components on Kubernetes
 | resources.limits.memory | string | `"128Mi"` |  |
 | resources.requests.cpu | string | `"100m"` |  |
 | resources.requests.memory | string | `"128Mi"` |  |
-| runner.image.repository | string | `"litmuschaos.docker.scarf.sh/litmuschaos/chaos-runner"` |  |
+| runner.image.repository | string | `"litmuschaos/chaos-runner"` |  |
 | runner.image.tag | string | `"3.10.0"` |  |
 | service.port | int | `80` |  |
 | service.type | string | `"ClusterIP"` |  |

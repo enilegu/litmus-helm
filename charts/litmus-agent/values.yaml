@@ -32,7 +32,7 @@ LITMUS_PROJECT_ID: ""
 LITMUS_ENVIRONMENT_ID: ""
 
 image:
-  repository: litmuschaos.docker.scarf.sh/litmuschaos/litmus-helm-agent
+  repository: litmuschaos/litmus-helm-agent
   pullPolicy: Always
   # Overrides the image tag whose default is the chart appVersion.
   tag: "latest"

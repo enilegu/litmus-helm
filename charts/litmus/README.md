@@ -61,7 +61,7 @@ We separated service configuration from `portal.server.service` to `portal.serve
 | customLabels | object | `{}` | Additional labels |
 | existingSecret | string | `""` | Use existing secret (e.g., External Secrets) |
 | image.imagePullSecrets | list | `[]` |  |
-| image.imageRegistryName | string | `"litmuschaos.docker.scarf.sh/litmuschaos"` |  |
+| image.imageRegistryName | string | `"litmuschaos"` |  |
 | ingress.annotations."ingress.kubernetes.io/proxy-body-size" | string | `"0"` |  |
 | ingress.annotations."ingress.kubernetes.io/ssl-redirect" | string | `"true"` |  |
 | ingress.annotations."nginx.ingress.kubernetes.io/proxy-body-size" | string | `"0"` |  |

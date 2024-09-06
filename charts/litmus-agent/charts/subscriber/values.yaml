@@ -12,7 +12,7 @@ appSettings:
 replicaCount: 1
 
 image:
-  repository: litmuschaos.docker.scarf.sh/litmuschaos/litmusportal-subscriber
+  repository: litmuschaos/litmusportal-subscriber
   pullPolicy: Always
   # Overrides the image tag whose default is the chart appVersion.
   tag: ""
